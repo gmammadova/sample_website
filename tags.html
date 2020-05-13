@@ -5,13 +5,14 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <h1>Important HTML tags</h1>
 
-    <div>
-      <a href="index.html">Home Page</a>
-      <a href="tags.html">Tags Page</a>
-      <a href="moby_dick.html">Moby Dick</a>    
+    <div style="text-align: right;">
+      <a href="index.html" style="text-decoration: none; color: blue;">Home</a>
+      <a href="tags.html"style="margin-left: 10px; text-decoration: none; color: blue;">HTML Tags</a>
+      <a href="moby_dick.html"style="margin: 0 0 0 10px; text-decoration: none; color: blue;">Moby Dick</a>
     </div>
+
+    <h1>Important HTML tags</h1>
 
     <a href="https://www.flickr.com/photos/jdhancock/3814523970">
       <img src="images/storm_trooper_tagged.jpg" alt="Tagged Storm Trooper">
@@ -75,7 +76,16 @@
         <td><code>header</code></td>
         <td>header</td>
         <td>represents a container for introductory content</td>
-
+      </tr>
+      <tr>
+        <td><code>ol</code></td>
+        <td>ordered list</td>
+        <td>defines an ordered list</td>
+      </tr>
+      <tr>
+        <td><code>ul</code></td>
+        <td>unordered list</td>
+        <td>defines bulleted an list</td>
       </tr>
     </table>
 
@@ -130,9 +140,64 @@
         <td><code>span</code></td>
         <td>span</td>
         <td>inline container</td>
-        <td>&lt;<code>span</code>&gt</td>
+        <td>
+          <code>&lt;span style="font-size: 24px; color: red; font-weight: bold;"&gt;something for example&lt;/span&gt;</code>
+        </td>
+        <td><span style="font-size: 24px; color: red; font-weight: bold;">something for example</span></td>
+      </tr>
+      <tr>
+        <td><code>li</code></td>
+        <td>list</td>
+        <td>tag defines a list item</td>
+        <td><code>&lt;ul&gt;
+          &lt;li&gt;apple&lt;/li&gt;
+          &lt;li&gt;pineapple&lt;/li&gt;
+          &lt;li&gt;orange&lt;/li&gt;
+        &lt;/ul&gt;</code> </td>
+        <td>
+          <ul>
+            <li>apple</li>
+            <li>pineapple</li>
+            <li>orange</li>
+          </ul>
+        </td>
       </tr>
     </table>
+
+  <h2>Document Tags</h2>
+  <table>
+    <tr>
+      <th>Tag</th>
+      <th>Name</th>
+      <th>Purpose</th>
+    </tr>
+    <tr>
+      <td><code>html</code></td>
+      <td>html document</td>
+      <td>represents the root of an HTML document</td>
+    </tr>
+    <tr>
+      <td><code>head</code></td>
+      <td>head</td>
+      <td>container for all head elements</td>
+    </tr>
+    <tr>
+      <td><code>body</code></td>
+      <td>body</td>
+      <td>defines the document's body</td>
+    </tr>
+    <tr>
+      <td><code>title</code></td>
+      <td>title</td>
+      <td>defines the document's title</td>
+    </tr>
+    <tr>
+      <td><code>meta</code></td>
+      <td>meta</td>
+      <td>metadada about the HTML document</td>
+    </tr>
+
+  </table>
 
 
   </body>
